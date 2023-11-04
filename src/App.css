@@ -1,0 +1,42 @@
+section{
+  width: 80vw;
+  margin: 0px auto;
+}
+.category-image{
+  width: 100%;
+  height: 20vh;
+}
+.items {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  grid-auto-rows: 20vh;
+  gap: 4%;
+  margin-bottom: 100px;
+}
+.item{
+  display: flex;
+  justify-content: space-between;
+  border: 1px black solid;
+}
+.item img{
+  width: 20%;
+}
+.main-menu h1, h2, h3, h4{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.meat{
+  background-image: url("./assets/images/MeatAndGrills/grilled-whole-chicken-recipe-10.jpg");
+  background-position: center;
+}
+.rice{
+  background-image: url("./assets/images/MainDishes/Simply-Recipes-Jollof-Rice-LEAD-6-5a93db14a0ac461f88dc557514a770c0.jpg");
+  background-position: center;
+}
+.boli{
+  background-image: url("./assets/images/Specials/boli.jpg");
+  background-position: center;
+}
+.fanta{
+  background-image: url(./assets/images/Drinks/FANTA-CAN-33CL-1.jpg);
+  background-position: center;
+}
