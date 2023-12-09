@@ -1,9 +1,10 @@
 import React from 'react'
-import logo from "src\assets\images\GoWaka-removebg-preview (1).png"
+import logo from "../../assets/images/logo.png"
+
 const Header = () => {
   return (
     <div>
-        <img src={logo} />
+        <img src={logo} alt="" />
         <br/>
         <li>Home</li>
         <li>Menus</li>
