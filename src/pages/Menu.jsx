@@ -26,7 +26,7 @@ import Water from "../assets/images/Drinks/water.png"
 import { Link } from 'react-router-dom'
 import Footer from '../comps/Footer/Footer'
 import Header from '../comps/Header/Header'
-import Foodcard from '../comps/FoodCards/foodcard'
+import Foodcard from '../comps/FoodCards/FoodCard'
 const menu = () => {
   return (
     <>
