@@ -23,166 +23,54 @@ import IceCream from "../assets/images/Drinks/ice cream.jpg"
 import Malt from "../assets/images/Drinks/maltina.jpg"
 import Sprite from "../assets/images/Drinks/sprite drink.jpg"
 import Water from "../assets/images/Drinks/water.png"
-const Menu = () => {
+import { Link } from 'react-router-dom'
+import Footer from '../comps/Footer/Footer'
+import Header from '../comps/Header/Header'
+import Foodcard from '../comps/FoodCards/foodcard'
+const menu = () => {
   return (
     <>
+    <Link to={"/"}></Link>
+    <Header/>
     <section className="main-menu">
         <h1>Main Menu</h1>
         <div className="category-image meat"></div>
         <h2 className="category-name"> Meat and Grills </h2>
         <div className="items">
-            <div className="item">
-                <div>
-                    <h3>Chicken Suya</h3>
-                    <h4>$15.99</h4>
-                </div>
-                <img src={chicken} alt=""/>
-            </div>
-            <div className="item">
-                <div>
-                    <h3>Fish</h3>
-                    <h4>$5.99</h4>
-                </div>
-                <img src={fish} alt=""/>
-            </div>
-            <div className="item">
-                <div>
-                    <h3>Chicken</h3>
-                    <h4>$7.99</h4>
-                </div>
-                <img src={wholeChicken} alt=""/>
-            </div>
-            <div className="item">
-                <div>
-                    <h3>Hake Fish</h3>
-                    <h4>$6.99</h4>
-                </div>
-                <img src={Hake} alt=""/>
-            </div>
-            <div className="item">
-                <div>
-                    <h3>Beef Suya</h3>
-                    <h4>$8.99</h4>
-                </div>
-                <img src={Beef} alt=""/>
-            </div>
-            <div className="item">
-                <div>
-                    <h3>Turkey</h3>
-                    <h4>$9.99</h4>
-                </div>
-                <img src={Turkey} alt=""/>
-            </div>
+            <Foodcard meal={"Chicken Suya"} price={"$15.99"} pic={chicken}/>
+            <Foodcard meal={"Fish"} price={"$5.99"} pic={fish}/>
+            <Foodcard meal={"Chicken"} price={"$7.99"} pic={wholeChicken}/>
+            <Foodcard meal={"Hake Fish"} price={"$6.99"} pic={Hake}/>
+            <Foodcard meal={"Beef Suya"} price={"$8.99"} pic={Beef}/>
+            <Foodcard meal={"Turkey"} price={"$9.99"} pic={Turkey}/>
         </div>
         <div className="category-image rice"></div>
         <h2 className="category-name"> Main Dishes </h2>
     <div className="items">
-            <div className="item">
-            <div>
-            <h3>Jollof Rice</h3>
-            <h4>$25.99</h4>
-            </div>
-        <img src={Rice} alt=""/>
-            </div>
-        <div className="item">
-            <div>
-                <h3>Beans</h3>
-                <h4>$9.99</h4>
-            </div>
-            <img src={Beans} alt=""/>
-        </div>
-        <div className="item">
-            <div>
-                <h3>Jollof Spaghetti</h3>
-                <h4>$15.99</h4>
-            </div>
-            <img src={Spaghetti} alt=""/>
-        </div>
-        <div className="item">
-            <div>
-                <h3>Yam and Egg</h3>
-                <h4>$13.99</h4>
-            </div>
-            <img src={Yam} alt=""/>
-        </div>
-        <div className="item">
-            <div>
-                <h3>Swallow</h3>
-                <h4>$16.99</h4>
-            </div>
-            <img src={Swallow} alt=""/>
-        </div>
-        <div className="item">
-            <div>
-                <h3>Akara</h3>
-                <h4>$11.99</h4>
-            </div>
-            <img src={Akara} alt=""/>
-        </div>
-        <div className="item">
-            <div>
-                <h3>Moi Moi</h3>
-                <h4>$12.99</h4>
-            </div>
-            <img src={MoiMoi} alt=""/>
-        </div>
-        <div className="item">
-            <div>
-                <h3>Pepper Soup</h3>
-                <h4>$14.99</h4>
-            </div>
-            <img src={PepperSoup} alt=""/>
-        </div>
+            <Foodcard meal={"Jollof Rice"} price={"$25.99"} pic={Rice}/>
+            <Foodcard meal={"Beans"} price={"$9.99"} pic={Beans}/>
+            <Foodcard meal={"Jollof Spaghetti"} price={"$15.99"} pic={Spaghetti}/>
+            <Foodcard meal={"Yam and Egg"} price={"$13.99"} pic={Yam}/>
+            <Foodcard meal={"Swallow"} price={"$16.99"} pic={Swallow}/>
+            <Foodcard meal={"Akara"} price={"$11.99"} pic={Akara}/>
+            <Foodcard meal={"Moi Moi"} price={"$12.99"} pic={MoiMoi}/>
+            <Foodcard meal={"Pepper Soup"} price={"$12.99"} pic={MoiMoi}/>
        </div> 
        <div className="category-image boli"></div>
        <h2 className="category-name"> Specials </h2>
     <div className="items">
-        <div className="item">
-            <div>
-                <h3>Asaro</h3>
-                <h4>$12.69</h4>
-            </div>
-            <img src={Asaro} alt=""/>
-        </div>
-        <div className="item">
-            <div>
-                <h3>Boli</h3>
-                <h4>$11.79</h4>
-            </div>
-            <img src={Boli} alt=""/>
-        </div>
-        <div className="item">
-            <div>
-                <h3>Puff Puff</h3>
-                <h4>$8.99</h4>
-            </div>
-            <img src={PuffPuff} alt=""/>
-        </div>
+    <Foodcard meal={"Asaro"} price={"$12.69"} pic={Asaro}/>
+    <Foodcard meal={"Boli"} price={"$11.79"} pic={Boli}/>
+    <Foodcard meal={"Puff Puff"} price={"$8.99"} pic={PuffPuff}/>
     </div>   
         <div className="category-image fanta"></div>
         <h2 className="category-name"> Drinks </h2>
         <div className="items">
-            <div className="item">
-                <div>
-                    <h3>7UP</h3>
-                    <h4>$1.99</h4>
-                </div>
-                <img src={SevenUp} alt=""/>
-            </div>
-            <div className="item">
-                <div>
-                    <h3>Coca Cola</h3>
-                    <h4>$2.99</h4>
-                </div>
-                <img src={CocaCola} alt=""/>
-            </div>
-            <div className="item">
-                <div>
-                    <h3>Fanta</h3>
-                    <h4>$2.69</h4>
-                </div>
-                <img src={Fanta} alt=""/>
-            </div>
+            <Foodcard meal={"7UP"} price={"1.99"} pic={SevenUp}/>
+            <Foodcard meal={"Coca Cola"} price={"2.99"} pic={CocaCola}/>
+            <Foodcard meal={"Fanta"} price={"2.69"} pic={Fanta}/>
+
+ 
             <div className="item">
                 <div>
                     <h3>One Scoop Ice Cream</h3>
@@ -213,8 +101,9 @@ const Menu = () => {
             </div>
         </div>
     </section>
+    <Footer/>
     </>
   )
 }
 
-export default Menu
+export default menu
