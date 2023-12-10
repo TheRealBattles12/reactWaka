@@ -7,13 +7,6 @@ const Home = () => {
   return (
     <>
       <Header/>
-      <nav>
-        <ul>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-        </ul>
-      </nav>
       <section id="about">
         <h2>About Us</h2>
         <p>Located in the vibrant multicultural landscape of Canada, GoWaka Restaurant stands as a delicious testament to the rich and diverse flavors of Nigeria. This culinary gem brings the essence of Nigerian cuisine to the Canadian dining scene, offering an authentic and immersive dining experience that transports patrons to the heart of West Africa.</p>
