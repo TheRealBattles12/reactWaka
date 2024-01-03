@@ -19,7 +19,7 @@ const Home = () => {
        <button type="submit">Login</button>
        <div class="signup-option">
             <p>Don't have an account?</p>
-            <a href="/signup">Sign Up</a>
+            <a>Sign Up</a>
         </div>
       </div>
       <Footer/>
