@@ -25,6 +25,15 @@ const Home = () => {
           Address: 123 Delicious Street, Canada
         </address>
       </section>
+      <section id="login">
+        <h2>Login or Signup Now!</h2>
+        <p>
+        Click this to login to our website to earn WakaRewards 
+        by the amount you order. These eventually give coupons 
+        to eat at a discount.
+        </p>
+        <Link to={"/Login"} className="login-button">Log-in</Link>      
+      </section>
       <Footer/>
     </>
   );
