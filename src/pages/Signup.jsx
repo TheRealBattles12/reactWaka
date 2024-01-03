@@ -6,7 +6,7 @@ import Header from '../comps/Header/Header'
 const Signup = () => {
   return (
     <>
-    <Link to={"/"}></Link>
+    <Link to={"/Signup"}></Link>
     <Header/>
     <div className="signup">
     </div>
