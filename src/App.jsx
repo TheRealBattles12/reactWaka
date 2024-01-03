@@ -10,6 +10,7 @@ function App(){
     <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/Menu" element={<Menu/>}/>
+        <Route path="/Login" element={<Login/>}/>
         <Route path="/*" element={"This page does not exist"}/>
     </Routes>
     </BrowserRouter>
