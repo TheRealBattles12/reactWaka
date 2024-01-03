@@ -11,15 +11,18 @@ const Login = () => {
      <div className="Login">
       <h1>Login</h1>
         <div className="Username">
+        <h3>Username</h3>
         <input type="text" id="username" name="username" required></input>
         </div>
+        <br/>
        <div className="Password">
+       <h3>Password</h3>
        <input type="text" id="password" name="password" required></input>
        </div> 
        <button type="submit">Login</button>
        <div class="signup-option">
             <p>Don't have an account?</p>
-            <a>Sign Up</a>
+            <a href="">Sign Up</a>
         </div>
       </div>
       <Footer/>
