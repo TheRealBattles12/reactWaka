@@ -5,10 +5,13 @@ import Header from '../comps/Header/Header'
 
 const Signup = () => {
   return (
-    <div className="signup">
+    <>
+    <Link to={"/"}></Link>
     <Header/>
-    <Footer/>
+    <div className="signup">
     </div>
+    <Footer/>
+    </>  
   )
 }
 
