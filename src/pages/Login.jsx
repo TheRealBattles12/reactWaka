@@ -1,12 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Footer from '../comps/Footer/Footer';
 import Header from '../comps/Header/Header';
 
 const Home = () => {
     return (
       <>
-      <Link to={"/Login"}></Link>
       <Header/>
      <div className="Login">
       <h1>Login</h1>
