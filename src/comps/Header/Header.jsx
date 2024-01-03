@@ -21,7 +21,7 @@ const Header = () => {
         <br/>
         <a href="#">Members</a>
         <br/>
-        <a href="#">Book Online</a>
+        <a href="/">Book Online</a>
         <br/>
         <a href="#">Log-In</a>
         </div>
