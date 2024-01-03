@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Menu from './pages/Menu'
 import Home from './pages/Home'
 import Login from "./pages/Login"
+import Signup from "./pages/Signup"
 import './App.css'
 function App(){
   return (
@@ -12,6 +13,7 @@ function App(){
         <Route path="/" element={<Home/>}/>
         <Route path="/Menu" element={<Menu/>}/>
         <Route path="/Login" element={<Login/>}/>
+        <Route path="/Signup" element={<Signup/>}/>
         <Route path="/*" element={"This page does not exist"}/>
     </Routes>
     </BrowserRouter>

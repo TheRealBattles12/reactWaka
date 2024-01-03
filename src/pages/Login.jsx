@@ -22,7 +22,7 @@ const Login = () => {
        <button type="submit">Login</button>
        <div class="signup-option">
             <p>Don't have an account?</p>
-            <a href="">Sign Up</a>
+            <a href="/Signup">Sign Up</a>
         </div>
       </div>
       <Footer/>
