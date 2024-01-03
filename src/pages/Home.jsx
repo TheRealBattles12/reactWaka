@@ -32,7 +32,6 @@ const Home = () => {
         by the amount you order. These eventually give coupons 
         to eat at a discount.
         </p>
-        
       </section>
       <Footer/>
     </>
