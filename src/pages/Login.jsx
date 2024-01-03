@@ -27,4 +27,4 @@ const Home = () => {
 );
 };
 
-export default Login;
+export default login;
