@@ -32,7 +32,7 @@ const Home = () => {
         by the amount you order. These eventually give coupons 
         to eat at a discount.
         </p>
-        <Link to={"/Login"} className="login-button">Log-in</Link>      
+        
       </section>
       <Footer/>
     </>
