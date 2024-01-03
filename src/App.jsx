@@ -9,7 +9,7 @@ function App(){
     <BrowserRouter>
     <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/menu" element={<Menu/>}/>
+        <Route path="/Menu" element={<Menu/>}/>
         <Route path="/*" element={"This page does not exist"}/>
     </Routes>
     </BrowserRouter>
