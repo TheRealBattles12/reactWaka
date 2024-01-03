@@ -11,7 +11,7 @@ const Header = () => {
         <div className='center'>   
         <a href="/">Home</a>
         
-        <Link to={"/Menu"} className="menu-button">Menus</Link>
+        <Link to={"/Menu"}>Menus</Link>
         
         <a href="/login">Order Online</a>
         
