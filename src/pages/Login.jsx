@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Footer from '../comps/Footer/Footer';
 import Header from '../comps/Header/Header';
 
-const Home = () => {
+const Login = () => {
     return (
       <>
           <Link to={"/Login"}></Link>
