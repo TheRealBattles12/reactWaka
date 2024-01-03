@@ -9,13 +9,14 @@ const Header = () => {
         <br/>
     </div>  
         <div className='center'>   
-        <li>Home</li>
-        <li>Menus</li>
-        <li>Order Online</li>
-        <li>Reservations</li>
-        <li>Forum</li>
-        <li>Members</li>
-        <li>Book Online</li>
+        <a href="/">Home</a>
+        <a href="/menu">Menus</a>
+        <a href="/login">Order Online</a>
+        <a href="/login">Reservations</a>
+        <a href="/login">Forum</a>
+        <a href="/login">Members</a>
+        <a href="/login">Book Online</a>
+        <a href="/login">Log-In</a>
         </div>
   </div> 
   )
