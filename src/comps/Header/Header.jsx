@@ -9,21 +9,21 @@ const Header = () => {
         <br/>
     </div>  
         <div className='center'>   
-        <a href="#">Home</a>
+        <a href="/">Home</a>
         
-        <a href="#">Menus</a>
+        <a href="/menu">Menus</a>
         
-        <a href="#">Order Online</a>
+        <a href="/login">Order Online</a>
         
-        <a href="#">Reservations</a>
+        <a href="/login">Reservations</a>
         
-        <a href="#">Forum</a>
+        <a href="/login">Forum</a>
         
-        <a href="#">Members</a>
+        <a href="/login">Members</a>
         
-        <a href="/">Book Online</a>
+        <a href="/login">Book Online</a>
         
-        <a href="#">Log-In</a>
+        <a href="/login">Log-In</a>
         </div>
   </div> 
   )
