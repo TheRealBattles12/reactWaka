@@ -10,19 +10,19 @@ const Header = () => {
     </div>  
         <div className='center'>   
         <a href="#">Home</a>
-        <br/>
+        
         <a href="#">Menus</a>
-        <br/>
+        
         <a href="#">Order Online</a>
-        <br/>
+        
         <a href="#">Reservations</a>
-        <br/>
+        
         <a href="#">Forum</a>
-        <br/>
+        
         <a href="#">Members</a>
-        <br/>
+        
         <a href="/">Book Online</a>
-        <br/>
+        
         <a href="#">Log-In</a>
         </div>
   </div> 
