@@ -28,9 +28,7 @@ const Home = () => {
       <section id="login">
         <h2>Login or Signup Now!</h2>
         <p>
-        Click this to login to our website to earn WakaRewards 
-        by the amount you order. These eventually give coupons 
-        to eat at a discount.
+        Click here to log in to our website and start earning WakaRewards based on your order amounts. Accumulate these rewards to receive valuable coupons for discounted dining experiences.
         </p>
         <Link to={"/Login"} className="login-button">Login</Link>
       </section>
