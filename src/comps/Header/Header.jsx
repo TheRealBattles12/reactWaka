@@ -12,13 +12,6 @@ const Header = () => {
       </div>
       <div className='center'>
         <Link to="/">Home</Link>
-        <Link to="/Menu">Menus</Link>
-        <Link to="/Login">Order Online</Link>
-        <Link to="/Login">Reservations</Link>
-        <Link to="/Login">Forum</Link>
-        <Link to="/Login">Members</Link>
-        <Link to="/Login">Book Online</Link>
-        <Link to="/Login">Log-In</Link>
       </div>
     </div>
   );
