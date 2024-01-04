@@ -27,7 +27,7 @@ import { Link } from 'react-router-dom'
 import Footer from '../comps/Footer/Footer'
 import Header from '../comps/Header/Header'
 import Foodcard from '../comps/FoodCards/foodcard'
-const menu = () => {
+const Menu = () => {
   return (
     <>
     <Link to={"/"}></Link>
@@ -106,4 +106,4 @@ const menu = () => {
   )
 }
 
-export default menu
+export default Menu

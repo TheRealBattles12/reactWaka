@@ -2,6 +2,10 @@ import React from 'react'
 import logo from "../../assets/images/logo.png"
 import './Header.css'
 import { Link } from 'react-router-dom'
+import Menu from './pages/Menu'
+import Home from './pages/Home'
+import Login from "./pages/Login"
+import Signup from "./pages/Signup"
 const Header = () => {
   return (
   <div>
