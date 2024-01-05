@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div>
+    <div className="naviGation">
       <div className='center-image'>
         <img src={logo} alt="" />
         <br />
