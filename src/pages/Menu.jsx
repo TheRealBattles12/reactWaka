@@ -69,36 +69,10 @@ const Menu = () => {
             <Foodcard meal={"7UP"} price={"1.99"} pic={SevenUp}/>
             <Foodcard meal={"Coca Cola"} price={"2.99"} pic={CocaCola}/>
             <Foodcard meal={"Fanta"} price={"2.69"} pic={Fanta}/>
-
- 
-            <div className="item">
-                <div>
-                    <h3>One Scoop Ice Cream</h3>
-                    <h4>$4.99</h4>
-                </div>
-                <img src={IceCream} alt=""/>
-            </div>
-            <div className="item">
-                <div>
-                    <h3>Maltina</h3>
-                    <h4>$1.99</h4>
-                </div>
-                <img src={Malt} alt=""/>
-            </div>
-            <div className="item">
-                <div>
-                    <h3>Sprite</h3>
-                    <h4>$2.99</h4>
-                </div>
-                <img src={Sprite}alt=""/>
-            </div>
-            <div className="item">
-                <div>
-                    <h3>Water</h3>
-                    <h4>$0.99</h4>
-                </div>
-                <img src={Water} alt=""/>
-            </div>
+            <Foodcard meal={"One Scoop Ice Cream"} price={"4.99"} pic={IceCream}/>
+            <Foodcard meal={"Maltina"} price={"1.99"} pic={Malt}/>
+            <Foodcard meal={"Sprite"} price={"2.99"} pic={Sprite}/>
+            <Foodcard meal={"Water"} price={"0.99"} pic={Water}/>
         </div>
     </section>
     <Footer/>

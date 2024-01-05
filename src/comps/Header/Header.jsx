@@ -12,8 +12,7 @@ const Header = () => {
       </div>
       <div className='center'>
       <a href="/">Home</a>
-      <a href="/Menu">Menus</a>
-        <Link to="/Login">Order Online</Link>
+      <a href="/Menu">Order Online</a>
         <Link to="/Login">Reservations</Link>
         <Link to="/Login">Forum</Link>
         <Link to="/Login">Members</Link>
