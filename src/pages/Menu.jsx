@@ -37,7 +37,7 @@ const Menu = () => {
         <div className="category-image meat"></div>
         <h2 className="category-name"> Meat and Grills </h2>
         <div className="items">
-            <Foodcard meal={"Chicken Suya"} price={"$15.99"} pic={chicken}/>
+            <Foodcard meal={"Chicken Suya"} price={"$7.99"} pic={chicken}/>
             <Foodcard meal={"Fish"} price={"$5.99"} pic={fish}/>
             <Foodcard meal={"Chicken"} price={"$7.99"} pic={wholeChicken}/>
             <Foodcard meal={"Hake Fish"} price={"$6.99"} pic={Hake}/>
