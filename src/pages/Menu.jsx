@@ -54,7 +54,7 @@ const Menu = () => {
             <Foodcard meal={"Swallow"} price={"$16.99"} pic={Swallow}/>
             <Foodcard meal={"Akara"} price={"$11.99"} pic={Akara}/>
             <Foodcard meal={"Moi Moi"} price={"$12.99"} pic={MoiMoi}/>
-            <Foodcard meal={"Pepper Soup"} price={"$12.99"} pic={MoiMoi}/>
+            <Foodcard meal={"Pepper Soup"} price={"$12.99"} pic={PepperSoup}/>
        </div> 
        <div className="category-image boli"></div>
        <h2 className="category-name"> Specials </h2>
