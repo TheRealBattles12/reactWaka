@@ -7,7 +7,7 @@ export function updateResult(item, number) {
   export function add(item, number) {
     number += 1;
     updateResult(item, number);
-    return number; // Return updated number value
+    return number;
   }
   
   export function subtract(item, number) {
@@ -15,6 +15,6 @@ export function updateResult(item, number) {
       number -= 1;
       updateResult(item, number);
     }
-    return number; // Return updated number value
+    return number;
   }
   
