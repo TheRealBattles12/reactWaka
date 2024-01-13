@@ -1,11 +1,11 @@
-.Jollof{
-    background-image: "src/assets/images/MainDishes/Simply-Recipes-Jollof-Rice-LEAD-6-5a93db14a0ac461f88dc557514a770c0.jpg"
+.Jollof {
+    background-image: url("src/assets/images/MainDishes/Simply-Recipes-Jollof-Rice-LEAD-6-5a93db14a0ac461f88dc557514a770c0.jpg");
 }
 
-.GrilledChicken{
-    background-image: "src\assets\images\MeatAndGrills\grilled-whole-chicken-recipe-10.jpg";
+.GrilledChicken {
+    background-image: url("src/assets/images/MeatAndGrills/grilled-whole-chicken-recipe-10.jpg");
 }
 
-.ChefSpecial{
-    background-image: "src\assets\images\Specials\pufftangerine-592-1-481x375.jpg";
+.ChefSpecial {
+    background-image: url("src/assets/images/Specials/pufftangerine-592-1-481x375.jpg");
 }
