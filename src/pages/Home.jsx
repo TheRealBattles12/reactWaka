@@ -20,19 +20,21 @@ const Home = () => {
           </p>
          <h4>Some of our Favourites:</h4> 
         <div className="Jollof">
-        <p>Jollof Rice
+        <h1>Jollof Rice</h1>
+        <p>
           The peak of Nigerian taste is brought to you fresh and amazing. Made with the right amount of spice to suit your tastebuds.
         </p>
         </div>
         <div className="GrilledChicken">
-        <p>Grilled Chicken
+        <h1>Grilled Chicken</h1>
+        <p>
         This latest addition to our menu has already become our customers’ favorite. Day or night, our Grilled Chicken is the dish you’ve been craving.
          Don't forget to ask your server about our special extras!
         </p>
         </div>
         <div className="ChefSpecial">
+        <h1>Chef's Special</h1>
         <p>
-        Chef Special
         Many restaurants have their own take on this recipe, but we’re confident that ours is the best, always prepared to perfection. 
           Share it with friends or have it all to yourself—you’ll enjoy it till the very last bite.</p>
         <Link to={"/Menu"} className="menu-button">See More→</Link>

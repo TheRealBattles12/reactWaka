@@ -1,11 +1,23 @@
 .Jollof {
     background-image: url("src/assets/images/MainDishes/Simply-Recipes-Jollof-Rice-LEAD-6-5a93db14a0ac461f88dc557514a770c0.jpg");
+    background-size: 100% 100%;  /* Adjust the size based on your preference */
+    width: 100%;  /* Set the width of the section */
+    height: 700px; /* Set the height of the section */
+    text-align: center;
 }
 
 .GrilledChicken {
     background-image: url("src/assets/images/MeatAndGrills/grilled-whole-chicken-recipe-10.jpg");
+    background-size: 100% 100%;  /* Adjust the size based on your preference */
+    width: 100%;  /* Set the width of the section */
+    height: 700px; /* Set the height of the section */
+    text-align: center;
 }
 
 .ChefSpecial {
     background-image: url("src/assets/images/Specials/pufftangerine-592-1-481x375.jpg");
+    background-size: 100% 100%;  /* Adjust the size based on your preference */
+    width: 100%;  /* Set the width of the section */
+    height: 700px; /* Set the height of the section */
+    text-align: center;
 }
