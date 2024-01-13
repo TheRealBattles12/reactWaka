@@ -24,10 +24,6 @@ const Signup = () => {
        <input type="text" id="password" name="password" required></input>
        </div> 
        <button type="submit">Signup</button>
-       <div class="login-option">
-            <p>Already have an account?</p>
-            <a href="/Login">Log In</a>
-        </div>
     </div>
     <Footer/>
     </>  
