@@ -16,6 +16,18 @@ const Home = () => {
         <h2>Our Menu</h2>
         <p>At GoWaka, the menu is a culinary journey through Nigeria's diverse regional cuisines, showcasing a variety of flavors, ingredients, and cooking techniques. 
           From the bustling streets of Lagos to the savannas of the North, the menu offers a tantalizing selection of dishes that will satisfy both seasoned aficionados of Nigerian cuisine and newcomers eager to explore something new.</p>
+        <img src="src\assets\images\MainDishes\Simply-Recipes-Jollof-Rice-LEAD-6-5a93db14a0ac461f88dc557514a770c0.jpg" alt="" />
+        <p>Jollof Rice
+          The peak of Nigerian taste is brought to you fresh and amazing. Made with the right amount of spice to suit your tastebuds.
+        </p>
+        <img src="src\assets\images\MeatAndGrills\grilled-whole-chicken-recipe-10.jpg" alt="" />
+        <p>Grilled Chicken
+        This latest addition to our menu has already become our customers’ favorite. Day or night, our Grilled Chicken is the dish you’ve been craving.
+         Don't forget to ask your server about our special extras!
+        </p>
+        <img src="src\assets\images\Specials\pufftangerine-592-1-481x375.jpg" alt="" />
+        <p>Many restaurants have their own take on this recipe, but we’re confident that ours is the best, always prepared to perfection. 
+          Share it with friends or have it all to yourself—you’ll enjoy it till the very last bite.</p>
         <Link to={"/Menu"} className="menu-button">See More→</Link>
       </section>
       <section id="contact">
