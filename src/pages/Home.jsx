@@ -15,7 +15,8 @@ const Home = () => {
       <section id="menu">
         <h2>Our Menu</h2>
         <p>At GoWaka, the menu is a culinary journey through Nigeria's diverse regional cuisines, showcasing a variety of flavors, ingredients, and cooking techniques. 
-          From the bustling streets of Lagos to the savannas of the North, the menu offers a tantalizing selection of dishes that will satisfy both seasoned aficionados of Nigerian cuisine and newcomers eager to explore something new.</p>
+          From the bustling streets of Lagos to the savannas of the North, the menu offers a tantalizing selection of dishes that will satisfy both seasoned aficionados of Nigerian cuisine and newcomers eager to explore something new.
+          Some of our Favourites:</p>
         <img src="src\assets\images\MainDishes\Simply-Recipes-Jollof-Rice-LEAD-6-5a93db14a0ac461f88dc557514a770c0.jpg" alt="" />
         <p>Jollof Rice
           The peak of Nigerian taste is brought to you fresh and amazing. Made with the right amount of spice to suit your tastebuds.
