@@ -9,12 +9,14 @@ const Home = () => {
       <Header/>
       <section id="about">
         <h2>About Us</h2>
-        <p>Located in the vibrant multicultural landscape of Canada, GoWaka Restaurant stands as a delicious testament to the rich and diverse flavors of Nigeria. This culinary gem brings the essence of Nigerian cuisine to the Canadian dining scene, offering an authentic and immersive dining experience that transports patrons to the heart of West Africa.</p>
+        <p>Located in the vibrant multicultural landscape of Canada, GoWaka Restaurant stands as a delicious testament to the rich and diverse flavors of Nigeria. 
+          This culinary gem brings the essence of Nigerian cuisine to the Canadian dining scene, offering an authentic and immersive dining experience that transports patrons to the heart of West Africa.</p>
       </section>
       <section id="menu">
         <h2>Our Menu</h2>
-        <p>At GoWaka, the menu is a culinary journey through Nigeria's diverse regional cuisines, showcasing a variety of flavors, ingredients, and cooking techniques. From the bustling streets of Lagos to the savannas of the North, the menu offers a tantalizing selection of dishes that will satisfy both seasoned aficionados of Nigerian cuisine and newcomers eager to explore something new.</p>
-        <Link to={"/Menu"} className="menu-button">View Menu</Link>
+        <p>At GoWaka, the menu is a culinary journey through Nigeria's diverse regional cuisines, showcasing a variety of flavors, ingredients, and cooking techniques. 
+          From the bustling streets of Lagos to the savannas of the North, the menu offers a tantalizing selection of dishes that will satisfy both seasoned aficionados of Nigerian cuisine and newcomers eager to explore something new.</p>
+        <Link to={"/Menu"} className="menu-button">See More→</Link>
       </section>
       <section id="contact">
         <h2>Contact Us</h2>
