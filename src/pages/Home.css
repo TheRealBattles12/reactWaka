@@ -4,6 +4,8 @@
     width: 100%;  /* Set the width of the section */
     height: 700px; /* Set the height of the section */
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .GrilledChicken {
@@ -12,6 +14,8 @@
     width: 100%;  /* Set the width of the section */
     height: 700px; /* Set the height of the section */
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .ChefSpecial {
@@ -20,4 +24,19 @@
     width: 100%;  /* Set the width of the section */
     height: 700px; /* Set the height of the section */
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
+.ChefSpecial h1, .GrilledChicken h1, .Jollof h1{
+    font-size: 88px;
+    font-weight: 300;
+    color: white;
+}
+.ChefSpecial p, .GrilledChicken p, .Jollof p{
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+}
+
+
+
