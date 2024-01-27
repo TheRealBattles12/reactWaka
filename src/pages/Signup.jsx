@@ -10,7 +10,7 @@ const Signup = () => {
     <Header/>
     <div className="signup">
     <h1>Signup</h1>
-        <div className="Username">
+        <div className="Mobile/Email">
         <h3>Username</h3>
         <input type="text" id="username" name="username" required></input>
         </div>
