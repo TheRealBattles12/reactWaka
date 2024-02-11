@@ -11,7 +11,7 @@ const Signup = () => {
   
   async function handleSubmit(event)  {
       try {
-        const response = await fetch("localhost:3000/api/user/register", {
+        const response = await fetch("http://127.0.0.1:3000/api/user/register", {
               method:"post", 
               headers:{
                 "Content-Type":"application/json"
