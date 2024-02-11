@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
-import { Await, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Footer from '../comps/Footer/Footer'
 import Header from '../comps/Header/Header'
-import { transformWithEsbuild } from 'vite'
 
 const Signup = () => {
-  const [emails, setEmail] = useState("")
-  const [passwords, setPassword] = useState("")
+  const [emails, setEmail] = useState("Ben10@example.com")
+  const [passwords, setPassword] = useState("123")
+  const [names, setName] = useState("John")
+  
   
   async function handleSubmit(event)  {
       try {
@@ -17,7 +18,8 @@ const Signup = () => {
               },
               body:JSON.stringify({
                 email: emails, 
-                password: passwords
+                password: passwords,
+                name: names
               })
         })
         const data = await response.json()
