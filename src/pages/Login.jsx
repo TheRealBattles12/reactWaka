@@ -12,8 +12,8 @@ const Login = () => {
      <div className="Login">
       <h3>Login to access membership, reservations, forums and much more!</h3>
         <div className="Username">
-        <h3>Username</h3>
-        <input type="text" id="username" name="username" required></input>
+        <h3>Email</h3>
+        <input type="text" id="email" name="username" required></input>
         </div>
         <br/>
        <div className="Password">
