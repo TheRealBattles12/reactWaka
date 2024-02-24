@@ -10,7 +10,7 @@ const Login = () => {
           <Link to={"/Login"}></Link>
       <Header/>
      <div className="Login">
-      <h1>Login to access membership, reservations, forums and much more!</h1>
+      <h3>Login to access membership, reservations, forums and much more!</h3>
         <div className="Username">
         <h3>Username</h3>
         <input type="text" id="username" name="username" required></input>
