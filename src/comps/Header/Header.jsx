@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "../../assets/images/GOWAKA.png";
+import logo from "../../assets/GOWAKA.png";
 import './Header.css';
 import { Link } from 'react-router-dom';
 
