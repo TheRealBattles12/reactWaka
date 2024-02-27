@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <div className="naviGation">
+      <marquee behavior="smooth" direction="left">Welcome to GoWaka, the home of authentic Nigerian cusisine!</marquee>
       <div className='center-image'>
         <img src={logo} alt="" />
         <br />
