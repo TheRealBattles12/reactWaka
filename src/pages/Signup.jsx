@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Footer from '../comps/Footer/Footer'
 import Header from '../comps/Header/Header'
+import "./Signup.css"
 
 const Signup = () => {
   const [emails, setEmail] = useState("")

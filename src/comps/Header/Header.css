@@ -1,4 +1,7 @@
-
+.center a:hover {
+    background-color: antiquewhite;
+    color: blue;
+}
 .center{
     display: flex;
     justify-content: space-evenly;
