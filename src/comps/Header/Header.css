@@ -1,6 +1,6 @@
 .center a:hover {
     background-color: rgb(255, 255, 255);
-    color:purple;
+    color:red
 }
 .center{
     display: flex;
