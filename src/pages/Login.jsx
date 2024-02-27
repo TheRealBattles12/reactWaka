@@ -13,7 +13,7 @@ const Login = () => {
       <h3>Login to access membership, reservations, forums and much more!</h3>
         <div className="Username">
         <h3>Email</h3>
-        <input type="text" id="email" name="username" required></input>
+        <input type="text" id="email" name="email" required></input>
         </div>
         <br/>
        <div className="Password">
