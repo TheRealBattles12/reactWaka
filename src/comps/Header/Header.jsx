@@ -10,7 +10,7 @@ const Header = () => {
       the home of authentic Nigerian cusisine!</marquee>
       <div className='center'>
         <div className='center-image'>
-        <img src={logo} alt="" />
+        <a href="/"><img src={logo} alt="" /></a> 
         </div>
       <a href="/">Home</a>
       <Link to="/Menu">Order Online</Link>
